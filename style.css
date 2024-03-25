@@ -13,10 +13,10 @@ body {
   background-color: rgb(43, 42, 42);
   color: white;
   border-radius: 20px;
-  padding: 30px;
+  padding: 100px;
 }
 
 #display {
-  font-size: 3em;
-  margin-bottom: 20px;
+  font-size: 5em;
+  margin-bottom: 50px;
 }
