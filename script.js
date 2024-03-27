@@ -41,7 +41,9 @@ function updateTimer() {
 function updateDisplay() {
   const display = document.getElementById("display");
   if (display) {
-    display.textContent = (horas < 10 ? "0" + horas : horas) + ":" + (minutos < 10 ? "0" + minutos : minutos) + ":" + (segundos < 10 ? "0" + segundos : segundos);
+    display.textContent = (horas < 10 ? "0" + horas : horas) + ":" + 
+	(minutos < 10 ? "0" + minutos : minutos) + ":" + 
+	(segundos < 10 ? "0" + segundos : segundos);
   }
 }
 
